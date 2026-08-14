@@ -12,8 +12,8 @@ DSH 设置页 **Skills 管理器**（宿主级 bundle 插件）：系统/用户�
 ## 安装
 
 ```bash
-# 安装 v0.1.0
-dsh plugin --profile web add github:xiaoxianyu-office/dsh-skills-manager#v0.1.0
+# 安装 v0.1.2
+dsh plugin --profile web add github:xiaoxianyu-office/dsh-skills-manager#v0.1.2
 ```
 
 安装后**重启 DSH** 生效。
@@ -23,7 +23,7 @@ dsh plugin --profile web add github:xiaoxianyu-office/dsh-skills-manager#v0.1.0
 重复 `add` 并指定新 tag，**不要使用 update 选择 Git 引用**：
 
 ```bash
-dsh plugin --profile web add github:xiaoxianyu-office/dsh-skills-manager#v0.1.1
+dsh plugin --profile web add github:xiaoxianyu-office/dsh-skills-manager#v0.1.2
 ```
 
 ## 卸载
