@@ -49,4 +49,5 @@ dsh-skills-manager/
 
 - host 端依赖宿主服务：`skills` / `fs` / `shell` / `sandboxPolicy` / `webServer`
 - 写操作使用 `danger-full-access` 策略以管理 `~/.dsh/skills`，写后等待 300ms 让文件 watcher 完成注册表更新
+- `/skmg` API 仅接受本机回环请求（源地址 + Host 头双重校验），不要将该端口暴露到局域网/公网
 - client bundle 为手写 `__ModuleLoader__` 成品，无 prepare 脚本，不受 pnpm `allowBuilds` 限制
